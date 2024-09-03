@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+#container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 16px;
+    color: #666;
+}
+
+#board-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #f0f0f0;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#restart-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#restart-button:hover {
+    background-color: #3e8e41;
+}
+
+#game-status {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.win {
+    background-color: #c6efce;
+    color: #2e865f;
+}
+
+.lose {
+    background-color: #f7cac9;
+    color: #e74c3c;
+}
+
+.draw {
+    background-color: #f2f2f2;
+    color: #666;
+}

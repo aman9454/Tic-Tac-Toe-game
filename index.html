@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Tic Tac Toe</h1>
+            <p>Play against the computer or a friend!</p>
+        </div>
+        <div id="board-container">
+            <div id="board" role="grid">
+                <div class="square" id="square0" role="gridcell"></div>
+                <div class="square" id="square1" role="gridcell"></div>
+                <div class="square" id="square2" role="gridcell"></div>
+                <div class="square" id="square3" role="gridcell"></div>
+                <div class="square" id="square4" role="gridcell"></div>
+                <div class="square" id="square5" role="gridcell"></div>
+                <div class="square" id="square6" role="gridcell"></div>
+                <div class="square" id="square7" role="gridcell"></div>
+                <div class="square" id="square8" role="gridcell"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <button id="restart-button">Restart</button>
+            <p id="game-status"></p>
+        </div>
+    </div>
+    <script src="game.js" charset="UTF-8"></script>
+</body>
+</html>
