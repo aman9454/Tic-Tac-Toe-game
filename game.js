@@ -87,7 +87,7 @@ function updateGameStatus() {
 document.getElementById('restart-button').addEventListener('click', () => {
     currentPlayer = 'X';
     gameStatus = '';
-    gameOver = false;
+    gameOver = true;
     board = [];
     for (let i = 0; i < 9; i++) {
         board.push('');
